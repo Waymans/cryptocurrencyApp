@@ -14,6 +14,7 @@ import {
   Platform,
   KeyboardAvoidingView,
 } from 'react-native';
+import { getColor, financial } from '../utils/functions';
 
 export default class Search extends Component {
   state = {
@@ -150,17 +151,6 @@ const errorMaker = text => (
     <Text>{text}</Text>
   </Surface>
 );
-
-function getColor(color) {
-  if (color < 0) {
-    return { color: 'red' };
-  } else {
-    return { color: 'green' };
-  }
-}
-function financial(x) {
-  return Number.parseFloat(x).toFixed(2);
-}
 
 const styles = StyleSheet.create({
   divider: {

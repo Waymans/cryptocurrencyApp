@@ -15,6 +15,7 @@ import {
   Image,
   Platform,
 } from 'react-native';
+import { getColor, financial } from '../utils/functions';
 
 export default class Top extends Component {
   state = {
@@ -131,17 +132,6 @@ const cardMaker = list => {
     </Surface>
   );
 };
-
-function getColor(color) {
-  if (color < 0) {
-    return { color: 'red' };
-  } else {
-    return { color: 'green' };
-  }
-}
-function financial(x) {
-  return Number.parseFloat(x).toFixed(2);
-}
 
 const styles = StyleSheet.create({
   surface: {
