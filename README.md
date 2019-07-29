@@ -10,6 +10,7 @@ CryptoC is a cryptocurrency app. Upon opening, one initially sees the top 25 cry
 CryptoC is built with:
 * React Native
 
+## Demos
 ![Demo Page 1](/display/crypto1.jpg)
 ![Demo Page 2](/display/crypto2.jpg)
 ![Demo Page 3](/display/crypto3.jpg)
@@ -17,6 +18,6 @@ CryptoC is built with:
 ![Demo Page 5](/display/crypto5.jpg)
 
 ## Author
-Waymans | [GitHub](https://github.com/Waymans)
+Waylan Hedine | [GitHub](https://github.com/Waymans)
 
 Made with [Snack](https://github.com/expo/snack-web).
